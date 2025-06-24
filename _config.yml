@@ -1,0 +1,92 @@
+# -- Configuración Esencial -- #
+
+# Título y descripción de tu sitio
+title: "CIO Horizon"
+description: "Análisis y Estrategia en Tecnología y Liderazgo Digital"
+# URL base de tu sitio. Imprescindible para que los enlaces funcionen correctamente.
+# Cambia a https://www.ciohorizon.com cuando lo tengas en producción.
+url: "https://www.ciohorizon.com"
+
+# -- Configuración del Tema Minimal Mistakes -- #
+
+# Nombre del tema
+# (Opcional si ya usas remote_theme, pero es buena práctica tenerlo)
+theme: minimal-mistakes-jekyll
+
+# remote_theme es la forma recomendada para usar temas en GitHub Pages.
+# Siempre obtendrá la última versión del tema.
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Apariencia del sitio (skin). Puedes elegir entre:
+# default, air, aqua, contrast, dark, dirt, neon, sunrise
+# Para un sitio de tecnología, 'default', 'air' o 'dark' son excelentes opciones.
+minimal_mistakes_skin: "default" # o "dark" si prefieres modo oscuro
+
+# -- Información del Autor -- #
+# Se mostrará en la barra lateral y al final de los posts.
+author:
+  name: "Alejandro Hermosa"
+  avatar: "/assets/images/bio-photo.jpg" # Ruta a tu foto. Súbela a esta carpeta.
+  bio: "Shaping the Digital Enterprise." #bio: "Shaping the Digital Enterprise. Apasionado por la intersección de la tecnología, la estrategia y los negocios. Aquí comparto mis análisis y reflexiones."
+  #location: "Ciudad, País"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tu-usuario/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/tu-usuario"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tu-usuario"
+    # Puedes añadir más enlaces. Iconos de Font Awesome v5.
+
+# -- Navegación Principal -- #
+# Estos enlaces aparecerán en la parte superior del sitio.
+main_navigation:
+  - title: "Artículos"
+    url: /posts/
+  - title: "Categorías"
+    url: /categories/
+  - title: "Sobre mí"
+    url: /about/
+
+# -- Configuración por defecto para Posts y Páginas -- #
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true # Muestra la biografía del autor en los posts
+      read_time: true
+      comments: true # Habilita comentarios (necesitas configurar un proveedor como Disqus)
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# -- Footer -- #
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/tu-usuario"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tu-usuario"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tu-usuario/"
+
+# -- Plugins de Jekyll (los que GitHub Pages soporta) -- #
+# No añadas otros plugins aquí a menos que sepas que son compatibles.
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
