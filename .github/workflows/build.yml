@@ -1,0 +1,25 @@
+name: Build Jekyll site
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v3
+
+      - name: Instalar Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Instalar dependencias
+        run: bundle install
+
+      - name: Construir sitio
+        run: bundle exec jekyll build

@@ -11,7 +11,7 @@ url: "https://www.ciohorizon.com"
 
 # Nombre del tema
 # (Opcional si ya usas remote_theme, pero es buena práctica tenerlo)
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 
 # remote_theme es la forma recomendada para usar temas en GitHub Pages.
 # Siempre obtendrá la última versión del tema.
