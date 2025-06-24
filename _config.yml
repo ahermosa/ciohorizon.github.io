@@ -20,7 +20,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 # Apariencia del sitio (skin). Puedes elegir entre:
 # default, air, aqua, contrast, dark, dirt, neon, sunrise
 # Para un sitio de tecnología, 'default', 'air' o 'dark' son excelentes opciones.
-minimal_mistakes_skin: "default" # o "dark" si prefieres modo oscuro
+minimal_mistakes_skin: "air"  # Puedes usar otros como "dark", "neon", "contrast", etc.
 
 # -- Información del Autor -- #
 # Se mostrará en la barra lateral y al final de los posts.
