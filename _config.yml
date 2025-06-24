@@ -91,3 +91,11 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: all
+  layouts:
+    category: archive
+  permalinks:
+    category: '/categoria/:name/'
