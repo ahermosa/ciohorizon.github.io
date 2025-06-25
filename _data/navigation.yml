@@ -2,7 +2,7 @@ main:
   - title: "Inicio"
     url: /
   - title: "Categorías"
-    url: /categories/
+    url: /categoria/
   - title: "Etiquetas"
-    url: /tags/
+    url: /etiqueta/
 

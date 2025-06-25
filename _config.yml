@@ -91,12 +91,18 @@ jekyll-archives:
   enabled: all
   layouts:
     category: archive
+    tag: archive
   permalinks:
-    category: '/categoria/:name/'
+    category: /categoria/:name/
+    tag: /etiqueta/:name/
 
 category_archive:
   type: liquid
   path: /categoria/
+
+tag_archive:
+  type: liquid
+  path: /etiqueta/
 
 collections:
   pages:

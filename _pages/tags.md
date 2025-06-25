@@ -1,6 +1,6 @@
 ---
 title: "Etiquetas"
 layout: tags
-permalink: /tags/
+permalink: /etiqueta/
 entries_layout: list
 ---
