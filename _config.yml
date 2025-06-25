@@ -41,15 +41,6 @@ author:
       url: "https://github.com/tu-usuario"
     # Puedes añadir más enlaces. Iconos de Font Awesome v5.
 
-# -- Navegación Principal -- #
-# Estos enlaces aparecerán en la parte superior del sitio.
-main_navigation:
-  - title: "Artículos"
-    url: /posts/
-  - title: "Categorías"
-    url: /categories/
-  - title: "Sobre mí"
-    url: /about/
 
 # -- Configuración por defecto para Posts y Páginas -- #
 defaults:
