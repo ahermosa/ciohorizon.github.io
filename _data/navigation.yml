@@ -1,7 +1,8 @@
-- title: "Inicio"
-  url: /
-- title: "Categorías"
-  url: /categories/
-- title: "Sobre mí"
-  url: /about/
+main:
+  - title: "Inicio"
+    url: /
+  - title: "Categorías"
+    url: /categories/
+  - title: "Sobre mí"
+    url: /about/
 
