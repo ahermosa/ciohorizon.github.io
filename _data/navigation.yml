@@ -1,0 +1,7 @@
+main_navigation:
+  - title: "Artículos"
+    url: /posts/
+  - title: "Categorías"
+    url: /categories/
+  - title: "Sobre mí"
+    url: /about/
