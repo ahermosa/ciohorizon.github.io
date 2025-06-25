@@ -17,6 +17,9 @@ url: "https://www.ciohorizon.com"
 # Siempre obtendrá la última versión del tema.
 remote_theme: "mmistakes/minimal-mistakes"
 
+header:
+  navigation: true
+
 # Apariencia del sitio (skin). Puedes elegir entre:
 # default, air, aqua, contrast, dark, dirt, neon, sunrise
 # Para un sitio de tecnología, 'default', 'air' o 'dark' son excelentes opciones.
