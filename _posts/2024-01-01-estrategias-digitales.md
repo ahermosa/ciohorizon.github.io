@@ -4,6 +4,7 @@ title: "Estrategias digitales para un año de incertidumbre"
 date: 2025-01-01
 categories: [estrategia, transformación-digital]
 tags: [resiliencia, CIO, adaptación]
+categories: [Pensamiento estratégico, Arquitectura y plataformas]
 excerpt: "Cómo prepararse frente a la volatilidad económica y los cambios geopolíticos, priorizando la resiliencia digital."
 ---
 
