@@ -7,10 +7,8 @@ categories: [Pensamiento estratégico, Arquitectura y plataformas]
 date: 2025-06-24
 ---
 
-# Foco y modularidad: el poder de lo breve en la estrategia digital
 
-> “Lo bueno, si breve, dos veces bueno.”  
-> — *Baltasar Gracián, Oráculo Manual*
+> “Lo bueno, si breve, dos veces bueno." — *Baltasar Gracián, Oráculo Manual*
 
 ## Introducción
 

@@ -6,9 +6,12 @@ layout: default
   <h1 class="archive__title">
     {% if page.type == "categories" %}
       Categoría: {{ page.title }}
+    {% elsif page.type == "tags" %}
+      Etiqueta: {{ page.title }}
     {% else %}
       Archivo
     {% endif %}
+
   </h1>
 
   <div class="entries-grid">

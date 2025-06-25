@@ -7,10 +7,8 @@ categories: [Pensamiento estratégico]
 date: 2025-06-24
 ---
 
-# Gobernar la complejidad: del arte de la prudencia al poder de los datos
 
-> “El arte más difícil es el de gobernar.”  
-> — *Baltasar Gracián, Oráculo manual y arte de prudencia*
+> “El arte más difícil es el de gobernar.” — *Baltasar Gracián, Oráculo manual y arte de prudencia*
 
 ## Introducción
 
