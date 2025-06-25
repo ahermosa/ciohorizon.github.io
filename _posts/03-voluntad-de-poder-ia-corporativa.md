@@ -3,6 +3,7 @@ title: "La voluntad de poder en la inteligencia artificial corporativa"
 description: "Nietzsche, la estrategia basada en recursos y el liderazgo del CIO frente a la IA generativa."
 author: Alejandro Hermosa
 tags: [CIO, estrategia digital, inteligencia artificial, Nietzsche, RBV, IA generativa]
+categories: [Pensamiento estratégico, Datos e inteligencia artificial]
 date: 2025-06-24
 ---
 

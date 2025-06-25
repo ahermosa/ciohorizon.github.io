@@ -1,14 +1,31 @@
 ---
-layout: splash
+layout: default
 ---
 
-<h1 class="page-title">Categoría: {{ page.title }}</h1>
+<div class="page__content">
+  <h1 class="archive__title">
+    {% if page.type == "categories" %}
+      Categoría: {{ page.title }}
+    {% else %}
+      Archivo
+    {% endif %}
+  </h1>
 
-<ul class="post-list">
-  {% for post in page.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+  <div class="entries-grid">
+    {% for post in page.posts %}
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <h2 class="archive__item-title no_toc" itemprop="headline">
+          <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a>
+        </h2>
+
+        {% if post.excerpt %}
+          <p class="archive__item-excerpt" itemprop="description">
+            {{ post.excerpt | strip_html | truncate: 160 }}
+          </p>
+        {% endif %}
+
+        <p class="archive__item-date">{{ post.date | date: "%d %B %Y" }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</div>

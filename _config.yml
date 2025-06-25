@@ -90,3 +90,7 @@ jekyll-archives:
     category: archive
   permalinks:
     category: '/categoria/:name/'
+
+category_archive:
+  type: liquid
+  path: /categoria/

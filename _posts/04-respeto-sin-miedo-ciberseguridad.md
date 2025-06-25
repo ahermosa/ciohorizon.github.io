@@ -3,6 +3,7 @@ title: "Nada es más despreciable que el respeto basado en el miedo"
 description: "Schopenhauer, el liderazgo estratégico y la ciberseguridad como cultura organizativa."
 author: Alejandro Hermosa
 tags: [CIO, estrategia digital, ciberseguridad, cultura, Schopenhauer, liderazgo]
+categories: [Pensamiento estratégico, Cultura digital y seguridad]
 date: 2025-06-24
 ---
 

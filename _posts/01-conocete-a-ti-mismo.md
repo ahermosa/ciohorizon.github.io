@@ -3,6 +3,7 @@ title: "Conócete a ti mismo… y a tu arquitectura IT"
 description: "Sócrates, la diferenciación estratégica y la observabilidad moderna como claves del liderazgo tecnológico."
 author: Alejandro Hermosa
 tags: [CIO, estrategia digital, observabilidad, arquitectura IT, diferenciación, Sócrates]
+categories: [Pensamiento estratégico, Arquitectura y plataformas]
 date: 2025-06-24
 ---
 

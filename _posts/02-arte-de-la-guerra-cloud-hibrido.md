@@ -3,6 +3,7 @@ title: "El arte de la guerra en la era del cloud híbrido"
 description: "Sun Tzu, la estrategia de océano azul y las arquitecturas multicloud como ventaja táctica para el CIO."
 author: Alejandro Hermosa
 tags: [CIO, estrategia digital, cloud híbrido, Sun Tzu, océano azul, multicloud]
+categories: [Arquitectura y plataformas]
 date: 2025-06-24
 ---
 
