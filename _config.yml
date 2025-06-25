@@ -97,3 +97,8 @@ jekyll-archives:
 category_archive:
   type: liquid
   path: /categoria/
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
