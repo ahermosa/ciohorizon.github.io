@@ -3,6 +3,6 @@ main:
     url: /
   - title: "Categorías"
     url: /categories/
-  - title: "Sobre mí"
-    url: /about/
+  - title: "Etiquetas"
+    url: /tags/
 

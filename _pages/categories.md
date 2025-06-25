@@ -1,6 +1,6 @@
 ---
 layout: categories
 title: "Categorías"
-permalink: /categorias/
+permalink: /categories/
 entries_layout: grid
 ---
