@@ -4,14 +4,13 @@ layout: default
 
 <div class="page__content">
   <h1 class="archive__title">
-    {% if page.type == "categories" %}
+    {% if page.type == "category" %}
       Categoría: {{ page.title }}
-    {% elsif page.type == "tags" %}
+    {% elsif page.type == "tag" %}
       Etiqueta: {{ page.title }}
     {% else %}
       Archivo
     {% endif %}
-
   </h1>
 
   <div class="entries-grid">
